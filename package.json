@@ -1,7 +1,7 @@
 {
   "name": "yt-music-history-extractor",
   "version": "1.0.0",
-  "description": "Extracts and formats YouTube Music history from Google Takeout for Last.fm scrobbling.",
+  "description": "Extracts and formats YouTube Music history from Google Takeout for scrobbling.",
   "license": "ISC",
   "author": "slvinnm",
   "type": "module",
