@@ -1,11 +1,23 @@
 {
-  "name": "yt-music-history-extractor",
+  "name": "ytmusic-scrobbler-extractor",
   "version": "1.0.0",
-  "description": "Extracts and formats YouTube Music history from Google Takeout for scrobbling.",
+  "description": "Convert your YouTube Music history to scrobbling format. Extract watch history from Google Takeout, enrich with album data via YouTube Music API, and generate formatted JSON files for music tracking.",
   "license": "ISC",
   "author": "slvinnm",
   "type": "module",
   "main": "index.js",
+  "keywords": [
+    "youtube-music",
+    "scrobbler",
+    "music-history",
+    "last.fm",
+    "google-takeout",
+    "data-extraction"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slvinnm/ytmusic-scrobbler-extractor"
+  },
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
