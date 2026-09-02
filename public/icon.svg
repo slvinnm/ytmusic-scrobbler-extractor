@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Neo-Brutalist Hard Shadow -->
+  <rect x="48" y="48" width="440" height="440" fill="#111" rx="24"/>
+  
+  <!-- Main Yellow Card Background -->
+  <rect x="24" y="24" width="440" height="440" fill="#ffdb58" stroke="#111" stroke-width="24" rx="24"/>
+  
+  <!-- Decorative Pink Accent Tag (Top Right) -->
+  <path d="M340 24h124v100h-124z" fill="#ff5c5c" stroke="#111" stroke-width="16"/>
+  
+  <!-- Cyan Accent Box (Bottom Left) -->
+  <path d="M24 388h100v100H24z" fill="#5ce1e6" stroke="#111" stroke-width="16"/>
+
+  <!-- JSON Braces & Music Note Graphic (Center) -->
+  <!-- Left Bracket { -->
+  <path d="M120 160c-25 0-40 15-40 40v40c0 15-10 25-25 25 15 0 25 10 25 25v40c0 25 15 40 40 40" fill="none" stroke="#111" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Right Bracket } -->
+  <path d="M392 160c25 0 40 15 40 40v40c0 15 10 25 25 25-15 0-25 10-25 25v40c0 25-15 40-40 40" fill="none" stroke="#111" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Bold Music Note in Center -->
+  <path d="M210 330V180l110-35v155" fill="none" stroke="#111" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="210" cy="330" r="32" fill="#111"/>
+  <circle cx="320" cy="300" r="32" fill="#111"/>
+</svg>
