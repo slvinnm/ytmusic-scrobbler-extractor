@@ -1,20 +1,17 @@
 # YT Music Scrobbler Extractor
 
+<img src="public/icon.svg" alt="YT Music Scrobbler Extractor icon" width="96" height="96" />
+
 Convert your YouTube Music history to scrobbling format. Extract watch history from Google Takeout, enrich with album data via YouTube Music API, and generate formatted JSON files for music tracking platforms like Last.fm.
 
 ## Features
 
-✨ **Extract YouTube Music History** - Parse your Google Takeout data to extract YouTube Music listening history
-
-🎵 **Enrich with Album Data** - Automatically fetch album information using YouTube Music API
-
-📊 **Generate Statistics** - Get insights about your top artists, tracks, and listening patterns
-
-💾 **Flexible Output** - Auto-chunked JSON files (max 2800 songs per file) for easy import into scrobbling services
-
-🌐 **Web UI** - User-friendly interface with real-time processing progress
-
-⚡ **Batch Processing** - Efficient API usage with smart batching and rate limiting
+- Extract YouTube Music History - Parse your Google Takeout data to extract YouTube Music listening history
+- Enrich with Album Data - Automatically fetch album information using YouTube Music API
+- Generate Statistics - Get insights about your top artists, tracks, and listening patterns
+- Flexible Output - Auto-chunked JSON files (max 2800 songs per file) for easy import into scrobbling services
+- Web UI - User-friendly interface with real-time processing progress
+- Batch Processing - Efficient API usage with smart batching and rate limiting
 
 ## Prerequisites
 
@@ -97,10 +94,10 @@ The extractor generates formatted data compatible with scrobbling services:
 .
 ├── index.js              # Express server & processing logic
 ├── public/
+│   ├── icon.svg         # App icon
 │   ├── index.html       # Web UI
 │   └── landing-dark.svg # Background image
-├── package.json         # Dependencies & metadata
-└── README.md           # This file
+└── package.json         # Dependencies & metadata
 ```
 
 ## Technologies Used
